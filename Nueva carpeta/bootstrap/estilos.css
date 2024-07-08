@@ -1,0 +1,144 @@
+
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 50px);
+    grid-gap: 5px;
+    margin: 0 auto;
+}
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #690058;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.element:hover {
+    background-color: #f0f0f0;
+}
+.element .number {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 12px;
+    color: #f0f0f0;
+}
+.elements .numbers {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 12px;
+    color: white;
+}
+.colorN{
+    background-color: orangered;
+}
+.position1{
+margin-top: 51px;
+margin-left: -55px;
+
+}
+
+.position2{
+    margin-top: 1px;
+    margin-left: 800px;
+    background-color: rgb(0, 225, 255);
+}
+.position3{
+    margin-top: 102px;
+    margin-left: -165px;
+    
+}
+.position4{
+    margin-top: 153px;
+    margin-left: -220px;
+    
+}
+.position5{
+    margin-top: 204px;
+    margin-left: -275px;
+    
+}
+.positionFr{
+    margin-top: 255px;
+    margin-left: -330px;
+    
+}
+
+.position7{
+    margin-top: 306px;
+    margin-left: -385px;
+    
+}
+.colorR{
+    background-color: rgb(243, 9, 9);
+}
+.position8{
+    margin-top: 51px;
+    margin-left: -389px;
+    
+}
+.position9{
+    margin-top: 103px;
+    margin-left: -445px;
+    
+}
+.position10{
+    margin-top: 153px;
+    margin-left: -500px;
+    
+}
+.position11{
+    margin-top: 204px;
+    margin-left: -445px;
+    
+}
+.position12{
+    margin-top: 255px;
+    margin-left: -500px;
+    
+}
+.position13{
+    margin-top: 306px;
+    margin-left: -555px;
+    
+}
+.colorL{
+    background-color: rgb(243, 9, 138);
+}
+.position14{
+    margin-top: 154px;
+    margin-left: -559px;
+    
+}
+.position15{
+    margin-top: 204px;
+    margin-left: -614px;
+    
+}
+.position16{
+    margin-top: 154px;
+    margin-left: -618px;
+    
+}
+.position17{
+    margin-top: 154px;
+    margin-left: -623px;
+    
+}
+.position18{
+    margin-top: 234px;
+    margin-left: -623px;
+       
+}
+.position19{
+    margin-top: 154px;
+    margin-left: -623px;
+       
+}
